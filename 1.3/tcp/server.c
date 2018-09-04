@@ -15,7 +15,6 @@ int main(void) {
 		exit(1);
     }
 		
-	
 	addr.sin_family = AF_INET;
     addr.sin_port = htons(3425);
     addr.sin_addr.s_addr = htonl(INADDR_ANY);
