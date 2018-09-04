@@ -26,7 +26,6 @@ int main(void) {
         exit(2);
     }
     
-	
 	if(listen (listener, 100) < 0) {
 		perror("listen");
 		exit(3);
