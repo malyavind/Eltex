@@ -1,4 +1,4 @@
-void * thread_func(void * arg) {
+void * connect(void * arg) {
 	void* sock = (int) arg;
 	char buf[1024];
 	while(1) {
