@@ -1,4 +1,4 @@
-void * connect(void * arg) {
+void * connection(void * arg) {
 	void* sock = (int) arg;
 	char buf[1024];
 	while(1) {
