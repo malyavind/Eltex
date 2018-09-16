@@ -45,7 +45,7 @@ int main() {
 			}
 		}
 		if (port_in_use == 0) {
-			if(pthread_create(&th, NULL, connection/*sender*/, (void *)&data) != 0) {
+			if(pthread_create(&th, NULL, connection, (void *)&data) != 0) {
 				perror("pthread create");
 				exit(3);
 			}
