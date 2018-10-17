@@ -14,6 +14,7 @@ typedef struct {
 
 
 void* slave (void *args);
+void init (void *args);
 
 
 #endif	
