@@ -4,7 +4,6 @@ void my_callback(u_char *args, const struct pcap_pkthdr* pkthdr, const u_char* p
 
 int main() 
 { 
-	//int i;
 	char *dev; 
 	char errbuf[PCAP_ERRBUF_SIZE]; 
 	pcap_t* descr; 
