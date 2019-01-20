@@ -1,0 +1,8 @@
+Simplest "Hello World" kernel module using /dev
+
+Usage:
+
+$ ./make.sh
+$ sudo cp hello.rules /etc/udev/
+$ sudo ln -s ../hello.rules /etc/udev/rules.d/010_hello.rules
+$ cat /dev/hello_world
