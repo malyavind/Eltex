@@ -1,0 +1,4 @@
+Simplest "Hello World" kernel module using /proc
+Usage:
+$ ./make.sh
+$ cat /proc/hello_world
