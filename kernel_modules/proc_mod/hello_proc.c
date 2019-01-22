@@ -30,7 +30,7 @@ struct file_operations proc_fops = {
 static int __init hello_init(void) {
 	if ( proc_create("hello_world", 0, NULL, &proc_fops) == 0) {
 		printk(KERN_ERR "Unable to register \"Hello, world!\" proc file\n");
-        return -ENOMEM;
+        	return -ENOMEM;
 	}
 	hello_str = "Hello world!\n";
 	len = strlen(hello_str);

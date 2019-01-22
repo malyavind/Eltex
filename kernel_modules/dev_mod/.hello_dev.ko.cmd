@@ -1,0 +1,1 @@
+cmd_/home/dimon/Eltex_Homeworks/kernel_modules/dev_mod/hello_dev.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/dimon/Eltex_Homeworks/kernel_modules/dev_mod/hello_dev.ko /home/dimon/Eltex_Homeworks/kernel_modules/dev_mod/hello_dev.o /home/dimon/Eltex_Homeworks/kernel_modules/dev_mod/hello_dev.mod.o ;  true

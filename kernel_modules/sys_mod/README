@@ -1,0 +1,7 @@
+Simple "Hello World" kernel module using /sys
+
+Usage:
+
+$ sudo make
+$ sudo insmod ./hello_sys.ko
+$ cat /sys/class/hello-class/hello
